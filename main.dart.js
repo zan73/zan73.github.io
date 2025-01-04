@@ -24694,8 +24694,8 @@ _.K$=_.aa$=0},
 MA:function MA(){},
 add:function add(a){this.a=a},
 ach:function ach(a){this.a=a},
-K8(a,b,c,d,e){var s=0,r=A.L(t.X7),q,p,o,n,m,l
-var $async$K8=A.M(function(f,g){if(f===1)return A.I(g,r)
+K8(a,b,c,d,e,f){var s=0,r=A.L(t.X7),q,p,o,n,m,l
+var $async$K8=A.M(function(g,h){if(g===1)return A.I(h,r)
 while(true)switch(s){case 0:l=e===B.kh?"long":"short"
 if(b===B.SQ)p="top"
 else p=b===B.SR?"center":"bottom"
@@ -24703,8 +24703,8 @@ o=a.gm(0)
 n=a.gm(0)
 m=d.gm(0)
 s=3
-return A.H(B.Jo.lQ("showToast",A.Y(["msg",c,"length",l,"time",1,"gravity",p,"bgcolor",o,"iosBgcolor",n,"textcolor",m,"iosTextcolor",d.gm(0),"fontSize",null,"fontAsset",null,"webShowClose",!1,"webBgColor","linear-gradient(to right, #00b09b, #96c93d)","webPosition","right"],t.N,t.z),!1,t.y),$async$K8)
-case 3:q=g
+return A.H(B.Jo.lQ("showToast",A.Y(["msg",c,"length",l,"time",1,"gravity",p,"bgcolor",o,"iosBgcolor",n,"textcolor",m,"iosTextcolor",d.gm(0),"fontSize",null,"fontAsset",null,"webShowClose",!1,"webBgColor",f,"webPosition","right"],t.N,t.z),!1,t.y),$async$K8)
+case 3:q=h
 s=1
 break
 case 1:return A.J(q,r)}})
@@ -85707,7 +85707,7 @@ $S:541}
 A.a_g.prototype={
 $0(){var s=this.b
 this.a.oS(s.d,s.c,!1)
-A.K8(B.l,B.yJ,"Channel "+s.b+" hidden.",B.k,B.kh)},
+A.K8(B.l,B.yJ,"Channel "+s.b+" hidden.",B.k,B.kh,"black")},
 $S:0}
 A.asq.prototype={
 $1(a){var s,r,q
@@ -85742,7 +85742,7 @@ $0(){var s=this,r=s.b,q=s.c,p=J.c0(q),o=s.d
 s.a.C3(r.c,B.b.bb(q.gCf(),", "),p.ge7(q),!o)
 A.mL(s.e,!1).IL(null)
 r=r.b+" - "
-A.K8(B.l,B.yJ,o?r+A.l(p.ge7(q))+" has been removed from the filter.":r+A.l(p.ge7(q))+" has been added to the filter.",B.k,B.kh)},
+A.K8(B.l,B.yJ,o?r+A.l(p.ge7(q))+" has been removed from the filter.":r+A.l(p.ge7(q))+" has been added to the filter.",B.k,B.kh,"black")},
 $S:0}
 A.aso.prototype={
 $0(){var s=A.aAN(new A.asl(this.b),null,t.z)
